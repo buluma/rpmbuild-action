@@ -27,7 +27,7 @@ This action expects the following structure:
 
 ## Example usage
 
-A full example can be found in [this my_rpm example](https://github.com/robertdebock/my_rpm).
+A full example can be found in [this my_rpm example](https://github.com/buluma/rpm_build).
 
 `.github/workflows/rpmbuild.yml`:
 
