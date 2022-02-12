@@ -45,5 +45,5 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: rpmbuild
-        uses: buluma/rpmbuild-action@1.1.1
+        uses: buluma/rpmbuild-action@1.0.2
 ```
