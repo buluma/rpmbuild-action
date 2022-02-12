@@ -7,11 +7,11 @@ inputs:
   distribution:
     description: The distribution to run the build on.
     required: false
-    default: centos-7
+    default: centos-8
 
 runs:
   using: docker
-  image: 'docker://buluma/github-action-rpmbuild'
+  image: 'docker://buluma/github-action-rpmbuild:${{ inputs.distribution }}'
 
 branding:
   icon: box
