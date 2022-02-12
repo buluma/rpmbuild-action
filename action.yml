@@ -1,13 +1,13 @@
 ---
-name: Build an RPM
-description: Build an RPM on different distributions.
+name: Build Custom RPM
+description: Build a custom RPM on different distributions.
 author: Shadow Walker <me@buluma.me.ke>
 
 inputs:
   distribution:
     description: The distribution to run the build on.
     required: false
-    default: centos-8
+    default: centos-7
 
 runs:
   using: docker
