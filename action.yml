@@ -7,11 +7,11 @@ inputs:
   distribution:
     description: The distribution to run the build on.
     required: false
-    default: centos-8
+    default: rockylinux-8
 
 runs:
   using: docker
-  image: 'docker://buluma/github-action-rpmbuild:latest'
+  image: 'docker://buluma/github-action-rpmbuild:rockylinux-8'
 
 branding:
   icon: box
