@@ -8,9 +8,9 @@ A GitHub action to build an RPM.
 
 The distribution to run on. Currently supported:
 
-- [`centos-7`](https://github.com/robertdebock/docker-github-action-rpmbuild/tree/centos-7)
-- [`centos-8`](https://github.com/robertdebock/docker-github-action-rpmbuild/tree/master) (default)
-- [`fedora-31`](https://github.com/robertdebock/docker-github-action-rpmbuild/tree/fedora-31)
+- [`centos-7`](https://github.com/buluma/docker-github-action-rpmbuild/tree/centos-7)
+- [`centos-8`](https://github.com/buluma/docker-github-action-rpmbuild/tree/master) (default)
+- [`fedora-31`](https://github.com/buluma/docker-github-action-rpmbuild/tree/fedora-31)
 
 ## Requirements
 
